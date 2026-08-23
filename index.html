@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charconar Family — โรงแรมแมวเชียงใหม่ และ Pet Sitter</title>
+<meta name="description" content="Charconar Cat Hotel & Sitter รับฝากแมวเชียงใหม่ ประสบการณ์ดูแลแมวมากกว่า 7 ปี แอร์ 24 ชม. Positive Pressure กล้องวงจรปิด อัพเดททุกวัน">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://manyexp.com/cathotel/charconarfamily/">
+<meta property="og:title" content="Charconar Family — โรงแรมแมวเชียงใหม่ และ Pet Sitter">
+<meta property="og:description" content="โรงแรมแมว 2026 รับฝากแมวเชียงใหม่ ประสบการณ์ดูแลแมวมากกว่า 7 ปี แอร์ 24 ชม. ระบบ Positive Pressure และมีกล้องให้ดูน้องแมวได้ 24 ชม.">
+<meta property="og:image" content="fb.webp">
+<meta property="og:image:width" content="768">
+<meta property="og:image:height" content="512">
+<script>
+  window.IMG_CONFIG = {
+    heroFloat1:  "1.jfif",
+    heroFloat2:  "4.jfif",
+    heroMain:    "main.jfif",
+    roomsFloat:  "2.jfif",
+    reviewsFloat:"3.jfif",
+    roomSizeM: "roomtype1.jfif",
+    roomSizeL: "roomtype2.jfif",
+    feelPrefix: "b",
+    feelExt:    ".jpg",
+    feelCount:  9,
+    promoPrefix: "a",
+    promoExt:    ".jpg",
+    promoCount:  11
+  };
+</script>
+<style>
+  :root{
+    --linen:#FAF5EC;--cream:#FFFCF6;--espresso:#3B2E27;--espresso-soft:#7A6B5D;
+    --moss:#7C8A5E;--moss-deep:#5C6845;--honey:#E3A345;--honey-deep:#C7842B;--blush:#E8927E;--blush-deep:#D0715C;
+    --line:#EAE0CC;--shadow:0 18px 40px -18px rgba(59,46,39,.25);--shadow-sm:0 8px 20px -12px rgba(59,46,39,.3);--radius:22px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  html, body { overflow-x: hidden; width: 100%; position: relative; }
+  body{font-family:'IBM Plex Sans Thai',system-ui,sans-serif;color:var(--espresso);background:var(--linen);line-height:1.7; padding-top: 76px;}
+  h1,h2,h3{font-family:'Mali','IBM Plex Sans Thai',sans-serif;line-height:1.25;font-weight:700}
+  a{color:inherit;text-decoration:none}
+  img,svg{max-width:100%;display:block}
+  .wrap{width:min(1160px,92vw);margin-inline:auto; position: relative;}
+  section{padding:clamp(56px,8vw,108px) 0; position: relative;}
+  :focus-visible{outline:3px solid var(--honey-deep);outline-offset:3px;border-radius:6px}
+  
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.82rem;letter-spacing:.1em;color:var(--blush-deep);background:#FBEEE9;padding:7px 16px;border-radius:100px}
+  
+  .sec-head{text-align:center;max-width:900px;margin:0 auto clamp(36px,5vw,54px); position: relative; z-index: 2;}
+  .sec-head h2{font-size:clamp(1.35rem, 5vw, 2.85rem);margin:16px 0 12px;letter-spacing:-.5px}
+  .sec-head p{color:var(--espresso-soft);font-size:1.05rem}
+  
+  .btn{display:inline-flex;align-items:center;gap:9px;font-family:'Mali',sans-serif;font-weight:700;font-size:1.02rem;padding:15px 28px;border-radius:100px;border:none;cursor:pointer;transition:all .25s ease; position: relative; z-index: 2;}
+  .btn:hover{transform:translateY(-4px); box-shadow:0 15px 25px -10px rgba(0,0,0,.2);}
+  svg.i{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .btn-line{background:#06c755;color:#fff;}
+  .btn-call{background:var(--espresso);color:#fff;}
+  .btn-ghost{background:#fff;color:var(--espresso);border:2px solid var(--line)}
+  .btn-review{white-space:nowrap;font-size:clamp(0.75rem,3.2vw,1.02rem);padding:12px clamp(10px,3vw,28px);}
+
+  header{position:fixed;top:0;left:0;width:100%;z-index:100;background:rgba(250,245,236,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+  .logo{display:flex;align-items:center;gap:10px;font-family:'Mali';font-weight:700;font-size:1.4rem}
+  .logo svg{width:36px;height:36px;transition:transform 0.3s ease;}
+  .logo:hover svg{transform:rotate(10deg) scale(1.1);}
+  .logo b em{color:var(--blush-deep);font-style:normal}
+  .nav-links{display:flex;align-items:center;gap:28px}
+  .nav-links a{font-weight:500;color:var(--espresso-soft);font-size:.96rem;transition:color .15s}
+  .nav-links a:hover{color:var(--blush-deep)}
+  .nav-cta{display:flex;gap:10px;align-items:center;}
+  .nav-cta .btn{padding:10px 20px;font-size:.9rem}
+  .menu-btn{display:none;background:none;border:none;cursor:pointer;font-size:1.6rem;color:var(--espresso)}
+  
+  @media(max-width:880px){.nav-links{display:none}.nav-cta .btn-call{display:none}.menu-btn{display:block}}
+  @media(max-width:520px){
+    .nav-cta{gap:6px;}
+    .nav-cta .btn{padding:8px 14px;font-size:.85rem;}
+    .logo{font-size:1.2rem;}
+    .logo svg{width:28px;height:28px;}
+  }
+
+  #mnav{display:none;flex-direction:column;gap:6px;padding-bottom:14px}
+  #mnav.show{display:flex}
+  #mnav a{padding:10px 4px;border-bottom:1px solid var(--line)}
+
+  .hero{padding-top:clamp(40px,6vw,66px)}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(30px,5vw,60px);align-items:center}
+  .hero h1{font-size:clamp(1.6rem, 6vw, 3.6rem);letter-spacing:-.5px; position:relative; z-index:2;}
+  .hero h1 .hl{position:relative;color:var(--blush-deep)}
+  .hero h1 .hl::after{content:"";position:absolute;left:-2px;right:-2px;bottom:8px;height:13px;background:var(--honey);opacity:.4;z-index:-1;border-radius:6px}
+  .hero p.lead{margin:22px 0 30px;font-size:1.12rem;color:var(--espresso-soft);max-width:500px; position:relative; z-index:2;}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap; position:relative; z-index:2;}
+  .hero-trust{display:flex;gap:28px;margin-top:36px;flex-wrap:wrap; position:relative; z-index:2;}
+  .hero-trust b{font-family:'Mali';font-size:1.6rem;color:var(--espresso);display:block;line-height:1}
+  .hero-trust span{font-size:.84rem;color:var(--espresso-soft)}
+  .hero-visual{position:relative; z-index:2;}
+  .hero-illust{position:relative;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/5;min-height:260px;background:linear-gradient(160deg,#F6E9D2,#EFDDBE)}
+  .hero-chips{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:16px}
+  .badge,.float-card{background:#fff;border-radius:16px;box-shadow:var(--shadow-sm);display:flex;align-items:center;gap:10px;font-weight:600;text-align:left;transition:transform 0.3s ease;}
+  .badge:hover, .float-card:hover{transform:translateY(-5px) scale(1.03);}
+  .badge{padding:12px 16px;font-size:.85rem;width:min(220px,80vw)}
+  .badge svg{width:26px;height:26px;flex:none}
+  .float-card{padding:14px 18px;font-size:.86rem;width:min(220px,80vw)}
+  .float-card .fc-ic{width:42px;height:42px;border-radius:12px;background:#FBEEE9;color:var(--blush-deep);display:grid;place-items:center;flex:none}
+  
+  @media(max-width:820px){
+    .hero-grid{grid-template-columns:1fr;text-align:center}
+    .hero p.lead{margin-inline:auto}
+    .hero-cta,.hero-trust{justify-content:center}
+    .hero-visual{max-width:400px;margin:34px auto 8px}
+    .hero-chips{flex-wrap: nowrap; gap: 8px; justify-content: center; width: 100%;}
+    .badge, .float-card { 
+      width: 49%; 
+      padding: 10px 6px; 
+      font-size: 0.72rem; 
+      flex-direction: column; 
+      text-align: center; 
+      justify-content: center;
+      gap: 6px;
+    }
+    .badge svg { margin: 0 auto; width: 22px; height: 22px; }
+    .float-card .fc-ic { width: 34px; height: 34px; margin: 0 auto; }
+  }
+  
+  @media(min-width:821px){
+    .hero-chips{display:contents}
+    .badge{position:absolute;top:20px;right:-14px;transform:rotate(3deg);width:180px}
+    .float-card{position:absolute;bottom:-22px;left:-20px;width:200px}
+  }
+
+  .strip{background:var(--espresso);color:#fdf8f0; position:relative; z-index:2;}
+  .strip .wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 40px;padding:22px 0}
+  .strip span{display:flex;align-items:center;gap:9px;font-weight:500;font-size:.94rem;transition:color 0.2s ease;}
+  .strip span:hover{color:var(--honey);}
+  .strip svg{width:18px;height:18px;stroke:var(--honey)}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px; position:relative; z-index:2;}
+  .card{background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);padding:32px 28px;box-shadow:var(--shadow-sm);transition:all .3s cubic-bezier(0.25, 0.8, 0.25, 1);}
+  .card:hover{transform:translateY(-8px) scale(1.02); box-shadow:0 20px 40px -15px rgba(59,46,39,.2);}
+  .card-head{display:flex;align-items:center;gap:14px;margin-bottom:12px;}
+  .card-head .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;flex:none;transition:transform 0.3s ease;}
+  .card:hover .ic{transform:scale(1.1) rotate(5deg);}
+  .card h3{font-size:1.15rem;line-height:1.3;margin-bottom:0;}
+  .card p{color:var(--espresso-soft);font-size:.97rem}
+  @media(max-width:820px){.cards{grid-template-columns:1fr}}
+
+  #ห้องพัก{background:linear-gradient(180deg,#FAF5EC,#F6EEDD)}
+  .rooms{display:grid;grid-template-columns:repeat(2,1fr);gap:24px; position:relative; z-index:2; max-width: 900px; margin: 0 auto;}
+  .room-card{background:#fff;border-radius:26px;overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--line);display:flex;flex-direction:column;transition:all .3s ease;}
+  .room-card:hover{transform:translateY(-6px); box-shadow:0 15px 35px -10px rgba(59,46,39,.2);}
+  .room-scene{aspect-ratio:5/4;position:relative;overflow:hidden; cursor:zoom-in;}
+  .room-scene img{transition:transform 0.5s ease;}
+  .room-card:hover .room-scene img{transform:scale(1.05);}
+  .room-body{padding:24px 24px 28px}
+  .room-body .tag{font-size:.78rem;font-weight:600;color:var(--moss-deep);background:#EEF2E4;display:inline-block;padding:4px 12px;border-radius:100px;margin-bottom:10px}
+  .room-body h3{font-size:1.32rem;margin-bottom:8px}
+  .room-body p{color:var(--espresso-soft);font-size:.94rem;margin-bottom:16px}
+  .room-price{display:flex;align-items:baseline;justify-content:space-between;border-top:1px dashed var(--line);padding-top:14px}
+  .room-price b{font-family:'Mali';font-size:1.5rem;color:var(--blush-deep)}
+  .room-price span{font-size:.82rem;color:var(--espresso-soft)}
+  @media(max-width:768px){.rooms{grid-template-columns:1fr}}
+
+  #บรรยากาศ { background: #F6EEDD; padding-bottom: clamp(56px,8vw,108px); overflow: hidden; position: relative;}
+  .slider-wrapper { position: relative; max-width: 1040px; margin: 0 auto; padding: 0 40px;}
+  .slider-container { 
+    display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth; padding-bottom: 20px; scrollbar-width: none; 
+  }
+  .slider-container::-webkit-scrollbar { display: none; }
+  .feel-card {
+    flex: 0 0 calc(33.333% - 11px); aspect-ratio: 4/3; scroll-snap-align: center;
+    border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-sm);
+    cursor: zoom-in; transition: transform 0.3s ease; position: relative;
+  }
+  .feel-card:hover { transform: translateY(-5px); box-shadow: 0 20px 30px -10px rgba(59,46,39,.2); }
+  
+  .slide-btn { 
+    position: absolute; top: calc(50% - 10px); transform: translateY(-50%); 
+    width: 44px; height: 44px; background: #fff; border: 1px solid var(--line); 
+    border-radius: 50%; display: grid; place-items: center; cursor: pointer; 
+    z-index: 10; box-shadow: var(--shadow-sm); color: var(--espresso); transition: all 0.2s;
+  }
+  .slide-btn:hover { background: var(--honey); color: #fff; border-color: var(--honey); transform: translateY(-50%) scale(1.1); }
+  .slide-prev { left: 0px; }
+  .slide-next { right: 0px; }
+  
+  .slider-hint { display: none; text-align: center; font-size: 0.85rem; color: var(--espresso-soft); margin-top: 12px; font-weight: 500; }
+  
+  @media(max-width: 820px) { .feel-card { flex: 0 0 calc(50% - 8px); } }
+  @media(max-width: 520px) { 
+    .feel-card { flex: 0 0 85%; scroll-snap-align: center; } 
+    .slider-wrapper { padding: 0; }
+    .slide-btn { display: none; } 
+    .slider-hint { display: block; animation: pulse 2s infinite; }
+  }
+  @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
+
+  .sitter-grid { max-width: 800px; margin: 0 auto; position: relative; z-index: 2;}
+
+  .timeline{position:relative;z-index:2;}
+  .timeline::before{content:"";position:absolute;left:27px;top:8px;bottom:8px;width:2px;background:var(--line)}
+  .t-item{position:relative;padding:0 0 34px 76px;transition:transform 0.3s ease;}
+  .t-item:hover{transform:translateX(5px);}
+  .t-item:last-child{padding-bottom:0}
+  .t-dot{position:absolute;left:0;top:-2px;width:56px;height:56px;border-radius:50%;background:var(--cream);border:1px solid var(--line);box-shadow:var(--shadow-sm);display:grid;place-items:center;transition:background 0.3s ease;}
+  .t-item:hover .t-dot{background:#fff;}
+  .t-dot svg{width:26px;height:26px}
+  .t-time{font-family:'Mali';font-weight:700;color:var(--blush-deep);font-size:1.05rem}
+  .t-item h3{font-size:1.12rem;margin:3px 0 5px}
+  .t-item p{color:var(--espresso-soft);font-size:.94rem}
+
+  #โปรโมชัน { background: linear-gradient(180deg,#F6EEDD,#FAF5EC); }
+  .promo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; position: relative; z-index: 2; }
+  .promo-item { border-radius: 16px; overflow: hidden; cursor: zoom-in; box-shadow: var(--shadow-sm); transition: transform 0.3s ease; }
+  .promo-item:hover { transform: translateY(-6px); box-shadow: 0 15px 30px -10px rgba(59,46,39,.2); }
+  
+  @media(max-width: 600px) {
+      .promo-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .promo-item { border-radius: 12px; }
+  }
+
+  #รีวิว{background:linear-gradient(180deg,#FAF5EC,#F6EEDD)}
+  .reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;position:relative;z-index:2;}
+  .review-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;box-shadow:var(--shadow-sm);transition:all .3s ease;}
+  .review-card:hover{transform:translateY(-5px); box-shadow:0 15px 30px -10px rgba(59,46,39,.15);}
+  .review-card p.quote{font-size:1rem;color:var(--espresso);margin-bottom:18px}
+  .review-who{display:flex;align-items:center;gap:12px}
+  .review-who .av{width:44px;height:44px;flex:none;border-radius:50%;object-fit:cover;background:transparent;display:grid;place-items:center;font-weight:bold;color:var(--espresso)}
+  .review-who b{font-size:.94rem;display:block}
+  .review-who span{font-size:.8rem;color:var(--espresso-soft)}
+  @media(max-width:900px){.reviews{grid-template-columns:1fr}}
+
+  .steps-path{display:flex;justify-content:space-between;gap:8px;max-width:900px;margin:0 auto;position:relative;z-index:2;}
+  .sp-item{flex:1;text-align:center;position:relative;transition:transform 0.3s ease;}
+  .sp-item:hover{transform:translateY(-5px);}
+.sp-item:not(:last-child)::after{content:"";position:absolute;top:26px;left:60%;width:80%;height:2px;background:var(--line)}
+  .sp-dot{width:52px;height:52px;border-radius:50%;background:var(--cream);border:2px solid var(--honey);display:grid;place-items:center;margin:0 auto 14px;position:relative;z-index:1;transition:all 0.3s ease;}
+  .sp-item:hover .sp-dot{background:var(--honey);color:#fff;}
+  .sp-item:hover .sp-dot svg{color:#fff;}
+  .sp-dot svg{width:24px;height:24px;color:var(--honey-deep);transition:color 0.3s ease;}
+  .sp-item h3{font-size:1.02rem;margin-bottom:6px}
+  .sp-item p{color:var(--espresso-soft);font-size:.86rem}
+  @media(max-width:820px){.steps-path{flex-direction:column;gap:26px}.sp-item::after{display:none}}
+
+  #ติดต่อ{background:var(--espresso);color:#f3ede2}
+  #ติดต่อ .eyebrow{background:rgba(255,255,255,.08);color:var(--honey)}
+  #ติดต่อ .sec-head p{color:#c9bfae}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch}
+  @media(max-width:820px){ .contact-grid { grid-template-columns: 1fr; } }
+  .contact-card{background:#453930;border-radius:var(--radius);padding:clamp(26px,4vw,38px);transition:transform 0.3s ease;}
+  .contact-card:hover{transform:translateY(-4px);}
+  .contact-card h3{font-size:1.4rem;margin-bottom:18px}
+  .ct-list{display:grid;gap:12px}
+  .ct-row{display:flex;align-items:center;gap:16px;padding:14px 16px;border-radius:16px;background:#4E4137;transition:all .2s ease;}
+  .ct-row:hover{transform:translateX(6px);background:#5a4c41;}
+  .ct-row .ci{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;flex:none;color:#fff}
+  .ct-row .lbl{font-size:.76rem;color:#c9bfae}
+  .ct-row .val{font-weight:600;font-size:.98rem}
+  .map-card{border-radius:var(--radius);background:#453930;padding:clamp(26px,4vw,38px);display:flex;flex-direction:column;justify-content:space-between;transition:transform 0.3s ease;}
+  .map-card:hover{transform:translateY(-4px);}
+  .map-illust{border-radius:16px;overflow:hidden;background:#4E4137;flex:1;min-height:220px;display:block;margin-bottom:18px}
+  .map-card address{font-style:normal;font-size:.94rem;color:#e3dccf;margin-bottom:16px;line-height:1.8}
+
+  footer{background:#2C221C;color:#c9bfae;padding:44px 0 26px}
+  .foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+  .foot .logo b{color:#fff}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:28px;padding-top:18px;text-align:center;font-size:.82rem;color:#8f8577}
+
+  .float-cta{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;gap:12px}
+  .float-cta a, .float-cta button{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(0,0,0,.4);transition:transform .2s cubic-bezier(0.34, 1.56, 0.64, 1); border:none; padding:0; cursor:pointer;}
+  .float-cta a:hover, .float-cta button:hover{transform:scale(1.15) rotate(-5deg);}
+  .fc-line{background:#06c755; color:#fff;}
+  .fc-call{background:var(--blush-deep); color:#fff;}
+  
+  .fc-lang {
+      background: #fff;
+      color: var(--espresso);
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      border: 2px solid var(--espresso) !important;
+  }
+
+  body.lang-switching {
+      animation: langSwitchAnim 0.4s ease;
+  }
+  @keyframes langSwitchAnim {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; }
+      100% { opacity: 1; }
+  }
+
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1!important;transform:none!important;transition:none!important}}
+
+  .img-cover{width:100%;height:100%;object-fit:cover;}
+
+  .floating-cat {
+      position: absolute;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(59,46,39,0.2);
+      z-index: 1; 
+      animation: floatAnim 18s infinite ease-in-out alternate; 
+      border: 3px solid #fff;
+      opacity: 0.7; 
+      pointer-events: none;
+  }
+  
+  .fc-1 { width: 120px; height: 120px; top: 10%; left: 3%; animation-delay: 0s; }
+  .fc-2 { width: 95px; height: 95px; top: 65%; right: 4%; animation-delay: 3s; }
+  .fc-3 { width: 140px; height: 140px; top: 15%; right: 5%; animation-delay: 2s; }
+  .fc-4 { width: 110px; height: 110px; top: 15%; left: 4%; animation-delay: 5s; }
+  
+  @media(max-width: 768px){
+      .fc-1 { width: 85px; height: 85px; top: 3%; left: 0px; }
+      .fc-2 { width: 80px; height: 80px; top: 55%; right: 0px; }
+      .fc-3 { width: 95px; height: 95px; top: 6%; right: 0px; }
+      .fc-4 { width: 85px; height: 85px; top: 10%; left: 0px; }
+  }
+
+  @keyframes floatAnim {
+      0% { transform: translateY(0) translateX(0) rotate(0deg); }
+      33% { transform: translateY(-30px) translateX(20px) rotate(8deg); }
+      66% { transform: translateY(15px) translateX(-15px) rotate(-5deg); }
+      100% { transform: translateY(-15px) translateX(25px) rotate(5deg); }
+  }
+
+  .lightbox {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(30,22,18,0.9); z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none; transition: opacity 0.3s ease;
+  }
+  .lightbox.show { opacity: 1; pointer-events: auto; }
+  .lightbox img { max-width: 90%; max-height: 85vh; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.5); object-fit: contain; }
+  .lb-btn {
+      position: absolute; background: rgba(255,255,255,0.1); border: none;
+      color: #fff; font-size: 1.8rem; cursor: pointer;
+      border-radius: 50%; width: 50px; height: 50px; display: grid; place-items: center;
+      transition: all 0.3s;
+  }
+  .lb-btn:hover { background: var(--honey); transform: scale(1.1); }
+  .lb-close { top: 24px; right: 24px; }
+  .lb-prev { left: 24px; }
+  .lb-next { right: 24px; }
+  @media(max-width: 600px){
+      .lb-btn { width: 40px; height: 40px; font-size: 1.4rem; }
+      .lb-prev { left: 10px; }
+      .lb-next { right: 10px; }
+      .lb-close { top: 16px; right: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="Charconar Family">
+      <svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="15" fill="var(--honey)"/><path d="M11 18 L16 6 L21 17Z" fill="var(--honey)"/><path d="M37 18 L32 6 L27 17Z" fill="var(--honey)"/><path d="M13 20 L17 8 L20 17Z" fill="var(--blush)"/><path d="M35 20 L31 8 L28 17Z" fill="var(--blush)"/><path d="M17 24a2 2 0 0 1 4 0" stroke="var(--espresso)" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M27 24a2 2 0 0 1 4 0" stroke="var(--espresso)" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M22 29 L24 31 L26 29Z" fill="var(--blush-deep)"/></svg>
+      <b>Charconar<em>Family</em></b>
+    </a>
+    <nav class="nav-links">
+      <a href="#ห้องพัก">Cat Hotel</a>
+      <a href="#บริการ">Pet Sitter</a>
+      <a href="#โปรโมชัน">Promotion</a>
+      <a href="#ติดต่อ" data-th="จองบริการ" data-en="Book Now">จองบริการ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:0871869117" class="btn btn-call"><svg class="i" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-th="โทร" data-en="Call">โทร</span></a>
+      <a href="https://line.me/ti/p/~Plukerss" target="_blank" rel="noopener" class="btn btn-line"><svg class="i" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span data-th="ทักไลน์" data-en="LINE">ทักไลน์</span></a>
+    </div>
+    <button class="menu-btn" onclick="document.getElementById('mnav').classList.toggle('show')" aria-label="เมนู">☰</button>
+  </div>
+  <div id="mnav" class="wrap">
+    <a href="#ห้องพัก" onclick="this.parentElement.classList.remove('show')">Cat Hotel</a>
+    <a href="#บริการ" onclick="this.parentElement.classList.remove('show')">Pet Sitter</a>
+    <a href="#โปรโมชัน" onclick="this.parentElement.classList.remove('show')">Promotion</a>
+    <a href="#ติดต่อ" onclick="this.parentElement.classList.remove('show')" data-th="จองบริการ" data-en="Book Now">จองบริการ</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="floating-cat fc-1"><img id="img-hero-float-1" class="img-cover" alt="แมวตกแต่ง"></div>
+  <div class="floating-cat fc-2"><img id="img-hero-float-2" class="img-cover" alt="แมวตกแต่ง"></div>
+  
+  <div class="wrap hero-grid">
+    <div class="reveal in">
+      <span class="eyebrow">Charconar Cat Hotel & Sitter</span>
+      <h1 data-th-html="ที่ที่แมวไม่เหงา แล้วเจ้าของ&lt;span class=&quot;hl&quot;&gt;วางใจได้&lt;/span&gt;" data-en-html="A place where cats are never lonely, and owners can &lt;span class=&quot;hl&quot;&gt;trust completely&lt;/span&gt;">ที่ที่แมวไม่เหงา แล้วเจ้าของ<span class="hl">วางใจได้</span></h1>
+      <p class="lead" data-th="ประสบการณ์ดูแลแมวมากกว่า 7 ปี ดูแลลูกๆของคุณด้วยความรัก ให้ความสำคัญกับความสะอาดและความปลอดภัย" data-en="Over 7 years of experience caring for cats. We treat your furkids with love, prioritizing cleanliness and safety.">ประสบการณ์ดูแลแมวมากกว่า 7 ปี (experience caring for cats 7yr+) ดูแลลูกๆของคุณด้วยความรัก ให้ความสำคัญกับความสะอาดและความปลอดภัย</p>
+      <div class="hero-cta">
+        <a href="https://line.me/ti/p/~Plukerss" target="_blank" rel="noopener" class="btn btn-line"><svg class="i" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span data-th="จองบริการให้น้องแมว" data-en="Book a Stay for Your Cat">จองบริการให้น้องแมว</span></a>
+        <a href="#ห้องพัก" class="btn btn-ghost" data-th="ดูห้องพักทั้งหมด" data-en="View All Rooms">ดูห้องพักทั้งหมด</a>
+      </div>
+      <div class="hero-trust">
+        <div><b data-th="7 ปี+" data-en="7+ Years">7 ปี+</b><span data-th="ประสบการณ์ดูแลแมว" data-en="Years of Cat Care Experience">ประสบการณ์ดูแลแมว</span></div>
+        <div><b data-th="24 ชม." data-en="24 hrs">24 ชม.</b><span data-th="ดูแลด้วยความใส่ใจ" data-en="Attentive Care Around the Clock">ดูแลด้วยความใส่ใจ</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal in">
+      <div class="hero-illust">
+        <img id="img-hero-main" alt="น้องแมวในโรงแรมเชียงใหม่ Charconar" class="img-cover zoomable">
+      </div>
+      <div class="hero-chips">
+        <div class="badge">
+          <svg viewBox="0 0 24 24" style="fill:none;stroke:var(--moss-deep);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span data-th-html="มีแอร์ &amp; Positive Pressure&lt;br&gt;ดูแลคุณภาพอากาศ 24 ชม." data-en-html="Air-Con &amp; Positive Pressure&lt;br&gt;24-hr Air Quality Control">มีแอร์ & Positive Pressure<br>ดูแลคุณภาพอากาศ 24 ชม.</span>
+        </div>
+        <div class="float-card">
+          <span class="fc-ic"><svg class="i" viewBox="0 0 24 24" style="width:20px;height:20px"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></span>
+          <span data-th-html="ดูกล้อง / VDO Call&lt;br&gt;ได้ทุกวันสบายใจหายห่วง" data-en-html="Live Camera / Video Call&lt;br&gt;Anytime, Total Peace of Mind">ดูกล้อง / VDO Call<br>ได้ทุกวันสบายใจหายห่วง</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="strip"><div class="wrap">
+    <span><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg><span data-th="ระบบแอร์ 24 ชม." data-en="24-hr Air Conditioning">ระบบแอร์ 24 ชม.</span></span>
+    <span><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg><span data-th="Positive Pressure 24 ชม." data-en="Positive Pressure 24 hrs">Positive Pressure 24 ชม.</span></span>
+    <span><svg viewBox="0 0 24 24"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg><span data-th="กล้องวงจรปิด CCTV" data-en="CCTV Surveillance">กล้องวงจรปิด CCTV</span></span>
+    <span><svg viewBox="0 0 24 24"><path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5"/></svg><span data-th="น้ำดื่ม Coway เปลี่ยน 2 รอบ/วัน" data-en="Coway Filtered Water, Changed 2x/Day">น้ำดื่ม Coway เปลี่ยน 2 รอบ/วัน</span></span>
+    <span><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.5 1.5 4.5 3 1-1.5 2.5-3 4.5-3 3.5 0 6 3.5 4 7.5C19 16.65 12 21 12 21z"/></svg><span data-th="ล้าง อบ ฆ่าเชื้อด้วยเครื่อง" data-en="Machine Washed & Sterilized">ล้าง อบ ฆ่าเชื้อด้วยเครื่อง</span></span>
+</div></div>
+
+<section id="วางใจ">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="ทำไมเจ้าของแมวถึงเลือกเรา" data-en="Why Cat Owners Choose Us">ทำไมเจ้าของแมวถึงเลือกเรา</span>
+      <h2 data-th="ดูแลลูกๆ ของคุณด้วยความรัก" data-en="Caring for Your Furkids with Love">ดูแลลูกๆ ของคุณด้วยความรัก</h2>
+      <p data-th="ประสบการณ์ดูแลแมวมากกว่า 7 ปี ให้ความสำคัญกับสุขภาพกายและสุขภาพใจของน้องๆ เป็นอันดับหนึ่ง" data-en="Over 7 years of cat care experience, putting your cats' physical and mental wellbeing first.">ประสบการณ์ดูแลแมวมากกว่า 7 ปี ให้ความสำคัญกับสุขภาพกายและสุขภาพใจของน้องๆ เป็นอันดับหนึ่ง</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="card-head">
+          <div class="ic" style="background:#FBEEE9;color:var(--blush-deep)"><svg viewBox="0 0 24 24" style="width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18M15 3v18"/></svg></div>
+          <h3 data-th="ความสะอาดขั้นสุด" data-en="Ultimate Cleanliness">ความสะอาดขั้นสุด</h3>
+        </div>
+        <p data-th="มีระบบ Positive Pressure ควบคุมคุณภาพอากาศ 24 ชม. น้ำดื่มกรอง Coway และภาชนะทุกชิ้นผ่านการล้าง อบ ฆ่าเชื้อด้วยเครื่องล้างจาน" data-en="A 24-hr Positive Pressure system controls air quality. Coway filtered water, and every dish is washed and sterilized in a dishwasher.">มีระบบ Positive Pressure ควบคุมคุณภาพอากาศ 24 ชม. น้ำดื่มกรอง Coway และภาชนะทุกชิ้นผ่านการล้าง อบ ฆ่าเชื้อด้วยเครื่องล้างจาน</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-head">
+          <div class="ic" style="background:#EEF2E4;color:var(--moss-deep)"><svg viewBox="0 0 24 24" style="width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
+          <h3 data-th="อัปเดตให้หายคิดถึง" data-en="Daily Updates So You Never Miss Them">อัปเดตให้หายคิดถึง</h3>
+        </div>
+        <p data-th="เจ้าของสามารถเช็คความน่ารักของน้องแมวผ่านกล้อง CCTV ส่งอัปเดตให้ทุกวัน หรือจะ VDO Call หาน้องก็ทำได้สบายใจ" data-en="Check in on your cat anytime via CCTV, with daily updates sent to you — or video call them whenever you like.">เจ้าของสามารถเช็คความน่ารักของน้องแมวผ่านกล้อง CCTV ส่งอัปเดตให้ทุกวัน หรือจะ VDO Call หาน้องก็ทำได้สบายใจ</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-head">
+          <div class="ic" style="background:#FCF3DF;color:var(--honey-deep)"><svg viewBox="0 0 24 24" style="width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <h3 data-th="ดูแลถึงบ้าน (Pet Sitter)" data-en="In-Home Care (Pet Sitter)">ดูแลถึงบ้าน (Pet Sitter)</h3>
+        </div>
+        <p data-th="หากน้องแมวมีอาการเครียดเมื่อต้องย้ายสถานที่ เรามีบริการส่งทีมงานไปดูแล ให้อาหาร ทำความสะอาดให้ถึงบ้าน" data-en="If your cat gets stressed when relocating, we offer in-home visits to feed, clean, and care for them.">หากน้องแมวมีอาการเครียดเมื่อต้องย้ายสถานที่ เรามีบริการส่งทีมงานไปดูแล ให้อาหาร ทำความสะอาดให้ถึงบ้าน</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ห้องพัก">
+  <div class="floating-cat fc-3"><img id="img-rooms-float" class="img-cover" alt="แมวตกแต่ง"></div>
+  
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="ห้องพักโรงแรมแมว" data-en="Cat Hotel Rooms">ห้องพักโรงแรมแมว</span>
+      <h2 data-th="เลือกห้องพักให้น้องแมว" data-en="Choose a Room for Your Cat">เลือกห้องพักให้น้องแมว</h2>
+      <p data-th="สิ่งอำนวยความสะดวกครบครัน แอร์ 24 ชั่วโมง พร้อมดูแลอย่างใกล้ชิด" data-en="Fully equipped with 24-hr air conditioning and attentive care.">สิ่งอำนวยความสะดวกครบครัน แอร์ 24 ชั่วโมง พร้อมดูแลอย่างใกล้ชิด</p>
+    </div>
+    <div class="rooms">
+
+      <div class="room-card reveal">
+        <div class="room-scene">
+          <img id="img-room-size-m" alt="ห้องพักแมว Size M" class="img-cover zoomable">
+        </div>
+        <div class="room-body">
+          <span class="tag" data-th="สำหรับน้องแมว 1-2 ตัว" data-en="For 1-2 Cats">สำหรับน้องแมว 1-2 ตัว</span>
+          <h3 data-th="ห้องพัก Size M" data-en="Room Size M">ห้องพัก Size M</h3>
+          <p data-th="ขนาด: 120 x 80 x 100 ซม. พื้นที่กว้างขวาง ให้น้องๆ ได้พักผ่อนอย่างสบายไม่อึดอัด" data-en="Size: 120 x 80 x 100 cm. A spacious room for your cats to relax comfortably.">ขนาด: 120 x 80 x 100 ซม. พื้นที่กว้างขวาง ให้น้องๆ ได้พักผ่อนอย่างสบายไม่อึดอัด</p>
+          <div class="room-price"><b>฿250</b><span data-th="ต่อคืน" data-en="per night">ต่อคืน</span></div>
+        </div>
+      </div>
+
+      <div class="room-card reveal">
+        <div class="room-scene">
+          <img id="img-room-size-l" alt="ห้องพักแมว Size L" class="img-cover zoomable">
+        </div>
+        <div class="room-body">
+          <span class="tag" data-th="สำหรับน้องแมว 3-4 ตัว" data-en="For 3-4 Cats">สำหรับน้องแมว 3-4 ตัว</span>
+          <h3 data-th="ห้องพัก Size L" data-en="Room Size L">ห้องพัก Size L</h3>
+          <p data-th="ขนาด: 240 x 80 x 100 ซม. สำหรับบ้านที่มีลูกๆ หลายตัว พักห้องเดียวกันได้สบาย" data-en="Size: 240 x 80 x 100 cm. Perfect for multi-cat households to stay together comfortably.">ขนาด: 240 x 80 x 100 ซม. สำหรับบ้านที่มีลูกๆ หลายตัว พักห้องเดียวกันได้สบาย</p>
+          <div class="room-price"><b>฿500</b><span data-th="ต่อคืน" data-en="per night">ต่อคืน</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="บรรยากาศ">
+  <div class="wrap" style="padding-bottom: 20px;">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="พื้นที่ส่วนกลาง" data-en="Common Area">พื้นที่ส่วนกลาง</span>
+      <h2 data-th="บรรยากาศโรงแรมของเรา" data-en="Our Hotel Atmosphere">บรรยากาศโรงแรมของเรา</h2>
+      <p data-th="โปร่งโล่งสบาย สะอาดปลอดภัย ให้น้องแมวได้เดินเล่นอย่างมีความสุข" data-en="Airy, clean, and safe space for cats to roam happily.">โปร่งโล่งสบาย สะอาดปลอดภัย ให้น้องแมวได้เดินเล่นอย่างมีความสุข</p>
+    </div>
+  </div>
+  
+  <div class="slider-wrapper reveal">
+    <button class="slide-btn slide-prev" id="feelPrev" aria-label="Previous">❮</button>
+    <div class="slider-container" id="feelSlider">
+    </div>
+    <button class="slide-btn slide-next" id="feelNext" aria-label="Next">❯</button>
+    <div class="slider-hint" data-th="👈 เลื่อนดูภาพเพิ่มเติม 👉" data-en="👈 Swipe for more 👉">👈 เลื่อนดูภาพเพิ่มเติม 👉</div>
+  </div>
+</section>
+
+<section id="บริการ" style="background:linear-gradient(180deg,#F6EEDD,#FAF5EC)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="บริการอื่นๆ" data-en="Other Services">บริการอื่นๆ</span>
+      <h2>Pet Sitter & Pet Taxi</h2>
+      <p data-th="บริการดูแลถึงบ้าน และ รับ-ส่ง น้องแมวอำนวยความสะดวกเต็มที่" data-en="In-home care and cat pick-up/drop-off, for your full convenience.">บริการดูแลถึงบ้าน และ รับ-ส่ง น้องแมวอำนวยความสะดวกเต็มที่</p>
+    </div>
+    
+    <div class="sitter-grid">
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-dot"><svg viewBox="0 0 24 24" style="stroke:var(--honey-deep);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M12 2v2M4.9 4.9l1.4 1.4M2 12h2M4.9 19.1l1.4-1.4M12 20v2M17.7 17.7l1.4 1.4M20 12h2M17.7 6.3l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg></div>
+          <span class="t-time" data-th="เริ่มต้น 100 บาท" data-en="Starting at ฿100">เริ่มต้น 100 บาท</span>
+          <h3 data-th="บริการ Pet Sitter (ดูแลแมวถึงบ้าน)" data-en="Pet Sitter Service (In-Home Cat Care)">บริการ Pet Sitter (ดูแลแมวถึงบ้าน)</h3>
+          <p data-th="ไปดูแลน้องถึงที่บ้านในกรณีที่ลูกค้าไม่อยากพาแมวย้ายสถานที่ ป้องกันน้องแมวเครียด กินน้อย หรือเจ็บป่วย" data-en="We visit your home so your cat doesn't have to relocate — preventing stress, appetite loss, or illness.">ไปดูแลน้องถึงที่บ้านในกรณีที่ลูกค้าไม่อยากพาแมวย้ายสถานที่ ป้องกันน้องแมวเครียด กินน้อย หรือเจ็บป่วย</p>
+          <br>
+          <p data-th-html="😻 ให้อาหาร (Food)&lt;br&gt;😻 เปลี่ยนน้ำ (Water)&lt;br&gt;😻 เก็บทราย (Cat litter)&lt;br&gt;😻 ชวนเล่น (Entertain)&lt;br&gt;😻 หวีขน (Brushing cat)&lt;br&gt;😻 สังเกตความผิดปกติ (Observing cat)&lt;br&gt;😻 อัพเดทให้เจ้าของวันละ 2 เวลา" data-en-html="😻 Feeding&lt;br&gt;😻 Water change&lt;br&gt;😻 Litter cleaning&lt;br&gt;😻 Playtime&lt;br&gt;😻 Brushing&lt;br&gt;😻 Health monitoring&lt;br&gt;😻 Updates to owner twice a day">😻 ให้อาหาร (Food)<br>😻 เปลี่ยนน้ำ (Water)<br>😻 เก็บทราย (Cat litter)<br>😻 ชวนเล่น (Entertain)<br>😻 หวีขน (Brushing cat)<br>😻 สังเกตความผิดปกติ (Observing cat)<br>😻 อัพเดทให้เจ้าของวันละ 2 เวลา</p>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-dot"><svg viewBox="0 0 24 24" style="stroke:var(--moss-deep);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><circle cx="12" cy="12" r="9"/><path d="M8 12l2.5 2.5L16 9"/></svg></div>
+          <span class="t-time">VIP Pet Taxi</span>
+          <h3 data-th="บริการรับส่งน้องแมว" data-en="Cat Pick-up & Drop-off Service">บริการรับส่งน้องแมว</h3>
+          <p data-th="มีบริการ Vip Pet taxi รับส่งน้องแมว ไปหาหมอ, อาบน้ำ, ส่งข้ามจังหวัด ปลอดภัย ไว้ใจได้" data-en="VIP Pet Taxi service for vet visits, grooming, or inter-province transport — safe and reliable.">มีบริการ Vip Pet taxi รับส่งน้องแมว ไปหาหมอ, อาบน้ำ, ส่งข้ามจังหวัด ปลอดภัย ไว้ใจได้</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section id="โปรโมชัน">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="Special Offers" data-en="Special Offers">Special Offers</span>
+      <h2 data-th="โปรโมชัน & สรุปบริการ" data-en="Promotions & Summary">โปรโมชัน & สรุปบริการ</h2>
+      <p data-th="รวมทุกรายละเอียดราคาและบริการให้เข้าใจง่ายในภาพเดียว" data-en="All pricing and service details summarized for you.">รวมทุกรายละเอียดราคาและบริการให้เข้าใจง่ายในภาพเดียว</p>
+    </div>
+    
+    <div class="promo-grid" id="promoGrid">
+    </div>
+  </div>
+</section>
+
+<section id="รีวิว">
+  <div class="floating-cat fc-4"><img id="img-reviews-float" class="img-cover" alt="แมวตกแต่ง"></div>
+
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="รีวิวจากผู้ใช้บริการจริง 100%" data-en="100% Real Customer Reviews">รีวิวจากผู้ใช้บริการจริง 100%</span>
+      <h2><span data-th="คะแนนจากลูกค้าจริงบน Google Maps" data-en="Real Customer Ratings on Google Maps">คะแนนจากลูกค้าจริงบน Google Maps</span></h2>
+    </div>
+    
+    <div class="reviews">
+      <div class="review-card reveal">
+          <p class="quote">ยังไม่เคยไปใช้บริการที่ร้าน วันนี้ลองสั่งไลน์แมน เป็นเมนูมัจฉะตัวท็อปของร้าน สั่งแบบเพียวมาลอง รสชาติดีงามมากครับ ไม่ขมเกินไป รู้ทันทีว่าเป็นมัจฉะเกรดดี ไว้ต้องไปทดลองชิมที่หน้าร้านครับ</p>
+          <div class="review-who">
+              <div class="av"><svg viewBox="0 0 24 24" fill="#4A90E2" width="28" height="28"><path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM6 20h12v-1c0-2.66-5.33-4-6-4s-6 1.34-6 4v1z"/></svg></div>
+              <div>
+                  <b>Phonthep Wongmethavee[cite: 1]</b>
+                  <span>★★★★★ · 1 ปีที่แล้ว[cite: 1]</span>
+              </div>
+          </div>
+      </div>
+      <div class="review-card reveal">
+          <p class="quote">กาแฟดีมากค่ะ ชาเขียวก็หอมๆ มีน้องแมวมาต้อนรับด้วยค่า เลิฟๆเลย</p>
+          <div class="review-who">
+              <div class="av"><svg viewBox="0 0 24 24" fill="#E8927E" width="28" height="28"><path d="M12 4a4 4 0 0 0-4 4c0 2.21 1.79 4 4 4s4-1.79 4-4a4 4 0 0 0-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+              <div>
+                  <b>a p</b>
+                  <span>★★★★★ · 1 ปีที่แล้ว</span>
+              </div>
+          </div>
+      </div>
+      <div class="review-card reveal">
+          <p class="quote">แนะนำโรงแรมน้องแมว ดูแลดี สะอาด เจ้าของน่ารัก เป็นกันเองมากๆ เครื่องดื่มดีอีก ลงตัวสุดๆๆๆ</p>
+          <div class="review-who">
+              <div class="av"><svg viewBox="0 0 24 24" fill="#E8927E" width="28" height="28"><path d="M12 4a4 4 0 0 0-4 4c0 2.21 1.79 4 4 4s4-1.79 4-4a4 4 0 0 0-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+              <div>
+                  <b>Sunudda TorTae</b>
+                  <span>★★★★★ · 1 ปีที่แล้ว</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 30px; position:relative; z-index:2;">
+        <a href="https://maps.app.goo.gl/MFWWuVjuULyP2s9U7" target="_blank" rel="noopener" class="btn btn-ghost btn-review" data-th="ดูรีวิวทั้งหมดบน Google Maps" data-en="View All Reviews on Google Maps">ดูรีวิวทั้งหมดบน Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<section id="วิธีจอง" style="background:linear-gradient(180deg,#FAF5EC,#F6EEDD)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="ขั้นตอนง่ายๆ" data-en="Simple Steps">ขั้นตอนง่ายๆ</span>
+      <h2 data-th="การเข้าพักและรับบริการ" data-en="Booking & Check-in Process">การเข้าพักและรับบริการ</h2>
+    </div>
+    <div class="steps-path">
+      <div class="sp-item reveal"><div class="sp-dot"><svg viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6"/></svg></div><h3 data-th="ทักไลน์สอบถามคิว" data-en="Message Us on LINE">ทักไลน์สอบถามคิว</h3><p data-th="แจ้งวันที่ต้องการฝาก หรือวันที่ต้องการให้เข้าไปดูแล" data-en="Let us know your desired dates for boarding or an in-home visit.">แจ้งวันที่ต้องการฝาก หรือวันที่ต้องการให้เข้าไปดูแล</p></div>
+      <div class="sp-item reveal"><div class="sp-dot"><svg viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M9 12l2 2 4-4"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg></div><h3 data-th="ชำระมัดจำ 50%" data-en="Pay 50% Deposit">ชำระมัดจำ 50%</h3><p data-th="เพื่อยืนยันการจอง และชำระส่วนที่เหลือในวันเข้าพัก" data-en="To confirm your booking, with the remaining balance due on check-in day.">เพื่อยืนยันการจอง และชำระส่วนที่เหลือในวันเข้าพัก</p></div>
+      <div class="sp-item reveal"><div class="sp-dot"><svg viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M3 12h18M12 3v18"/></svg></div><h3 data-th="เตรียมตัวน้องแมว" data-en="Prepare Your Cat">เตรียมตัวน้องแมว</h3><p data-th="แมวต้องแข็งแรง สมบูรณ์ ไม่ดุร้าย รับวัคซีนครบถ้วนและป้องกันเห็บหมัด" data-en="Cats must be healthy, calm, fully vaccinated, and protected against fleas and ticks.">แมวต้องแข็งแรง สมบูรณ์ ไม่ดุร้าย รับวัคซีนครบถ้วนและป้องกันเห็บหมัด</p></div>
+      <div class="sp-item reveal"><div class="sp-dot"><svg viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div><h3 data-th="เข้าพักอย่างสบายใจ" data-en="Check In with Peace of Mind">เข้าพักอย่างสบายใจ</h3><p data-th="นำสมุดวัคซีนมาแสดงทุกครั้งที่เข้าพัก" data-en="Please bring your cat's vaccination booklet at every check-in.">นำสมุดวัคซีนมาแสดงทุกครั้งที่เข้าพัก</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="ติดต่อ">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-th="ติดต่อสอบถาม" data-en="Contact Us">ติดต่อสอบถาม</span>
+      <h2 data-th="พร้อมต้อนรับน้องแมวของคุณแล้ว" data-en="Ready to Welcome Your Cat">พร้อมต้อนรับน้องแมวของคุณแล้ว</h2>
+      <p data-th="ทักมาได้ทุกช่องทาง ตอบไว ยินดีให้คำปรึกษาค่ะ" data-en="Reach out anytime — quick replies and happy to advise.">ทักมาได้ทุกช่องทาง ตอบไว ยินดีให้คำปรึกษาค่ะ</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <h3 data-th="ช่องทางติดต่อ" data-en="Contact Channels">ช่องทางติดต่อ</h3>
+        <div class="ct-list">
+          <a href="tel:0871869117" class="ct-row"><span class="ci" style="background:var(--blush-deep)"><svg class="i" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span><span class="lbl" data-th="โทรศัพท์" data-en="Phone">โทรศัพท์</span><br><span class="val">087-186-9117</span></span></a>
+          <a href="https://line.me/ti/p/~Plukerss" target="_blank" rel="noopener" class="ct-row"><span class="ci" style="background:#06c755"><svg class="i" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span><span><span class="lbl">LINE ID</span><br><span class="val">Plukerss</span></span></a>
+          <a href="https://www.facebook.com/CharconarFamily" target="_blank" rel="noopener" class="ct-row"><span class="ci" style="background:#1877F2"><svg class="i" viewBox="0 0 24 24" style="fill:#fff;stroke:none"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.86c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.48h-1.26c-1.24 0-1.63.78-1.63 1.58v1.9h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg></span><span><span class="lbl" data-th="Facebook เพจ" data-en="Facebook Page">Facebook เพจ</span><br><span class="val">Charconar Family</span></span></a>
+        </div>
+      </div>
+      <div class="map-card reveal">
+        <div class="map-illust" style="padding:0;">
+          <iframe id="mapEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.683515436669!2d99.0097480749665!3d18.73578998239922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da315de4ae2957%3A0x1e4f0cd9755c81db!2sCharconar%20Cat%20Hotel%20%26%20Home%20Coffee!5e0!3m2!1sth!2sth!4v1700000000000!5m2!1sth!2sth" data-src-th="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.683515436669!2d99.0097480749665!3d18.73578998239922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da315de4ae2957%3A0x1e4f0cd9755c81db!2sCharconar%20Cat%20Hotel%20%26%20Home%20Coffee!5e0!3m2!1sth!2sth!4v1700000000000!5m2!1sth!2sth" data-src-en="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.683515436669!2d99.0097480749665!3d18.73578998239922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da315de4ae2957%3A0x1e4f0cd9755c81db!2sCharconar%20Cat%20Hotel%20%26%20Home%20Coffee!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0; min-height: 220px; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a href="https://maps.app.goo.gl/MFWWuVjuULyP2s9U7" target="_blank" rel="noopener" class="btn" style="background:var(--honey);color:var(--espresso)"><svg class="i" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-th="เปิดแผนที่บนแอป" data-en="Open in Maps App">เปิดแผนที่บนแอป</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="#top" class="logo" style="margin-bottom:10px">
+          <svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="15" fill="var(--honey)"/><path d="M11 18 L16 6 L21 17Z" fill="var(--honey)"/><path d="M37 18 L32 6 L27 17Z" fill="var(--honey)"/><path d="M17 24a2 2 0 0 1 4 0" stroke="var(--espresso)" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M27 24a2 2 0 0 1 4 0" stroke="var(--espresso)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          <b>Charconar<em style="color:var(--blush)">Family</em></b>
+        </a>
+        <p style="max-width:340px;font-size:.92rem" data-th="รับฝากแมวและบริการดูแลแมวเชียงใหม่ ด้วยความรัก ประสบการณ์มากกว่า 7 ปี" data-en="Cat boarding and cat care services in Chiang Mai, with love and over 7 years of experience.">รับฝากแมวและบริการดูแลแมวเชียงใหม่ ด้วยความรัก ประสบการณ์มากกว่า 7 ปี</p>
+      </div>
+      <div style="text-align:right">
+        <p style="margin-bottom:8px"><a href="tel:0871869117"><b style="color:#fff;font-size:1.15rem">087-186-9117</b></a></p>
+        <p style="font-size:.9rem">Line: Plukerss · <a href="https://www.facebook.com/CharconarFamily" target="_blank" rel="noopener" style="color:inherit">Facebook: Charconar Family</a></p>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Charconar Family</div>
+  </div>
+</footer>
+
+<div class="float-cta">
+  <button type="button" id="langToggle" class="fc-lang" onclick="toggleLang()" aria-label="เปลี่ยนภาษา / Switch language">EN</button>
+  <a href="https://line.me/ti/p/~Plukerss" target="_blank" rel="noopener" class="fc-line" aria-label="Line"><svg viewBox="0 0 24 24" style="width:26px;height:26px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+  <a href="tel:0871869117" class="fc-call" aria-label="โทร"><svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+</div>
+
+<div id="lightbox" class="lightbox">
+    <button class="lb-btn lb-close" aria-label="Close">✕</button>
+    <button class="lb-btn lb-prev" aria-label="Previous">❮</button>
+    <img id="lb-img" src="" alt="ขยายรูป">
+    <button class="lb-btn lb-next" aria-label="Next">❯</button>
+</div>
+
+<script>
+(function () {
+  var cfg = window.IMG_CONFIG || {};
+  var singleImages = {
+    'img-hero-float-1': cfg.heroFloat1,
+    'img-hero-float-2': cfg.heroFloat2,
+    'img-hero-main':    cfg.heroMain,
+    'img-rooms-float':  cfg.roomsFloat,
+    'img-room-size-m':  cfg.roomSizeM,
+    'img-room-size-l':  cfg.roomSizeL,
+    'img-reviews-float':cfg.reviewsFloat
+  };
+  Object.keys(singleImages).forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el && singleImages[id]) el.src = singleImages[id];
+  });
+  var feelSlider = document.getElementById('feelSlider');
+  if (feelSlider && cfg.feelCount) {
+    var feelHtml = '';
+    for (var i = 1; i <= cfg.feelCount; i++) {
+      var src = cfg.feelPrefix + i + cfg.feelExt;
+      feelHtml += '<div class="feel-card"><img src="' + src + '" alt="บรรยากาศโรงแรมแมวเชียงใหม่ Charconar" class="img-cover zoomable" loading="lazy"></div>';
+    }
+    feelSlider.innerHTML = feelHtml;
+  }
+  var promoGrid = document.getElementById('promoGrid');
+  if (promoGrid && cfg.promoCount) {
+    var promoHtml = '';
+    for (var j = 1; j <= cfg.promoCount; j++) {
+      var psrc = cfg.promoPrefix + j + cfg.promoExt;
+      promoHtml += '<div class="promo-item reveal"><img src="' + psrc + '" class="img-cover zoomable" alt="โปรโมชันโรงแรมแมวเชียงใหม่ Charconar"></div>';
+    }
+    promoGrid.innerHTML = promoHtml;
+  }
+})();
+</script>
+
+<script>
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+  document.querySelectorAll('.reveal:not(.in)').forEach(function(el){io.observe(el);});
+</script>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'ccf_lang';
+  function applyLang(lang){
+    lang = (lang === 'en') ? 'en' : 'th';
+    document.documentElement.setAttribute('lang', lang);
+    document.body.classList.remove('lang-switching');
+    void document.body.offsetWidth;
+    document.body.classList.add('lang-switching');
+    setTimeout(function(){ document.body.classList.remove('lang-switching'); }, 400);
+    document.querySelectorAll('[data-th]').forEach(function(el){
+      var val = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-th');
+      if(val !== null) el.textContent = val;
+    });
+    document.querySelectorAll('[data-th-html]').forEach(function(el){
+      var val = lang === 'en' ? el.getAttribute('data-en-html') : el.getAttribute('data-th-html');
+      if(val !== null) el.innerHTML = val;
+    });
+    var mapFrame = document.getElementById('mapEmbed');
+    if(mapFrame){
+      var mapSrc = lang === 'en' ? mapFrame.getAttribute('data-src-en') : mapFrame.getAttribute('data-src-th');
+      if(mapSrc && mapFrame.src !== mapSrc) mapFrame.src = mapSrc;
+    }
+    var btn = document.getElementById('langToggle');
+    if(btn){
+      btn.setAttribute('data-lang', lang);
+      btn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
+      btn.textContent = lang === 'en' ? 'TH' : 'EN';
+    }
+    try{ localStorage.setItem(STORAGE_KEY, lang); }catch(e){}
+  }
+  function toggleLang(){
+    var current = document.getElementById('langToggle');
+    var currentLang = current ? current.getAttribute('data-lang') : 'th';
+    applyLang(currentLang === 'en' ? 'th' : 'en');
+  }
+  window.toggleLang = toggleLang;
+  document.addEventListener('DOMContentLoaded', function(){
+    var saved = 'th';
+    try{ saved = localStorage.getItem(STORAGE_KEY) || 'th'; }catch(e){}
+    applyLang(saved);
+  });
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+    const zoomables = document.querySelectorAll('.zoomable');
+    const lightbox = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lb-img');
+    const btnClose = document.querySelector('.lb-close');
+    const btnPrev = document.querySelector('.lb-prev');
+    const btnNext = document.querySelector('.lb-next');
+    let currentIdx = 0;
+    let currentImgGroup = [];
+    let touchStartX = 0;
+    let touchEndX = 0;
+    zoomables.forEach((img) => {
+        img.addEventListener('click', function() {
+            const section = img.closest('section');
+            if (section) {
+                const sectionImgs = Array.from(section.querySelectorAll('.zoomable'));
+                currentImgGroup = sectionImgs.map(i => i.src);
+                currentIdx = sectionImgs.indexOf(img);
+            } else {
+                currentImgGroup = [img.src];
+                currentIdx = 0;
+            }
+            showImage(currentIdx);
+            lightbox.classList.add('show');
+        });
+    });
+    function showImage(idx) {
+        if(idx < 0) currentIdx = currentImgGroup.length - 1;
+        else if(idx >= currentImgGroup.length) currentIdx = 0;
+        else currentIdx = idx;
+        lbImg.src = currentImgGroup[currentIdx];
+    }
+    btnClose.addEventListener('click', () => lightbox.classList.remove('show'));
+    btnPrev.addEventListener('click', (e) => { 
+        e.stopPropagation(); 
+        showImage(currentIdx - 1); 
+    });
+    btnNext.addEventListener('click', (e) => { 
+        e.stopPropagation(); 
+        showImage(currentIdx + 1); 
+    });
+    lightbox.addEventListener('click', (e) => {
+        if(e.target === lightbox) {
+            lightbox.classList.remove('show');
+        }
+    });
+    lightbox.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+    lightbox.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    });
+    function handleSwipe() {
+        if (touchEndX < touchStartX - 50) {
+            showImage(currentIdx + 1);
+        }
+        if (touchEndX > touchStartX + 50) {
+            showImage(currentIdx - 1);
+        }
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const fSlider = document.getElementById('feelSlider');
+    const btnPrevF = document.getElementById('feelPrev');
+    const btnNextF = document.getElementById('feelNext');
+    let fInterval;
+    function startFSlider() {
+        fInterval = setInterval(() => {
+            if (fSlider.scrollLeft + fSlider.clientWidth >= fSlider.scrollWidth - 10) {
+                fSlider.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                let card = fSlider.querySelector('.feel-card');
+                let slideWidth = card ? card.clientWidth + 16 : 300;
+                fSlider.scrollBy({ left: slideWidth, behavior: 'smooth' });
+            }
+        }, 5000);
+    }
+    function stopFSlider() {
+        clearInterval(fInterval);
+    }
+    if(fSlider) {
+        startFSlider();
+        fSlider.addEventListener('mouseenter', stopFSlider);
+        fSlider.addEventListener('mouseleave', startFSlider);
+        fSlider.addEventListener('touchstart', stopFSlider);
+        fSlider.addEventListener('touchend', () => { setTimeout(startFSlider, 2000); });
+        btnNextF.addEventListener('click', () => {
+            stopFSlider();
+            let card = fSlider.querySelector('.feel-card');
+            let slideWidth = card ? card.clientWidth + 16 : 300;
+            fSlider.scrollBy({ left: slideWidth, behavior: 'smooth' });
+        });
+        btnPrevF.addEventListener('click', () => {
+            stopFSlider();
+            let card = fSlider.querySelector('.feel-card');
+            let slideWidth = card ? card.clientWidth + 16 : 300;
+            fSlider.scrollBy({ left: -slideWidth, behavior: 'smooth' });
+        });
+    }
+});
+</script>
+</body>
+</html>
